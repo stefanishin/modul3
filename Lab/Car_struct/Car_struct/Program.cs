@@ -6,36 +6,37 @@ using System.Threading.Tasks;
 
 namespace Car_struct
 {
-    struct MenuFood
+    struct Food
     {
-        private string ;
-        private string ;
-        private string ;
-        private string ;
-        private string ;
+        private string chocolate;
+        private string milk;
+        private string fish;
+        private int IDfood;
+        private double sum;
 
-            public 
-
-
-    
-        public MenuFood(double length, double width)
+        public Food(string c, string m, string f, int id, int s)
         {
-            Length = length;
-            Width = width;
+           this.chocolate = c;
+           this.milk = m;
+           this.fish = f;
+           this.IDfood = id;
+           this.sum = s;
         }
+
         public void Print()
         {
-            Console.WriteLine($"Длина {Length}, ширина {Width}.");
+            Console.WriteLine($"Шоколад {chocolate}, Молоко {milk}, Рыба {fish}, Номер продукты {IDfood}, сумма {sum}");
         }
-    }
+    }       
     class Program
     {
         static void Main(string[] args)
         {
-            double length = 7.342,
-                  width = 23.49;
-            Dimensions dimensions = new Dimensions(length, width);
-            dimensions.Print();
+            string ch = "Шоколад", m = "Молоко", f = "Рыба"; int id = 0001, price = 200;
+            Food fd = new Food(ch, m, f, id, price);
+
+            fd.Print();
+            Console.ReadKey();
         }
     }
 }
