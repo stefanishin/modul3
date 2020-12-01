@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8404875F-5765-46EE-A910-B41D4A2999C9}</ProjectGuid>
+    <ProjectGuid>{A3001CDA-6E54-4705-A37F-2A2E71B0D457}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Car_struct</RootNamespace>
-    <AssemblyName>Car_struct</AssemblyName>
+    <RootNamespace>Student</RootNamespace>
+    <AssemblyName>Student</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Auto.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

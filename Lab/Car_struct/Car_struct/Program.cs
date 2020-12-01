@@ -4,39 +4,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Car_struct
+namespace Auto_out_ref
 {
-    struct Food
-    {
-        private string chocolate;
-        private string milk;
-        private string fish;
-        private int IDfood;
-        private double sum;
-
-        public Food(string c, string m, string f, int id, int s)
-        {
-           this.chocolate = c;
-           this.milk = m;
-           this.fish = f;
-           this.IDfood = id;
-           this.sum = s;
-        }
-
-        public void Print()
-        {
-            Console.WriteLine($"Шоколад {chocolate}, Молоко {milk}, Рыба {fish}, Номер продукты {IDfood}, сумма {sum}");
-        }
-    }       
     class Program
     {
         static void Main(string[] args)
         {
-            string ch = "Шоколад", m = "Молоко", f = "Рыба"; int id = 0001, price = 200;
-            Food fd = new Food(ch, m, f, id, price);
+            Auto st1 = new Auto();
+            Auto st2 = new Auto();
+            Console.WriteLine("Ввод информации");
+            st1.InputInfo();
+            Console.WriteLine("Вывод информации");
+            st1.GetInfo1();
 
-            fd.Print();
-            Console.ReadKey();
+            Console.WriteLine("Ввод информации");
+            st2.InputInfo();
+            Console.WriteLine("Вывод информации");
+            st2.GetInfo1();
+
+            Console.WriteLine();
+            string s1 = "";
+            string s = "";
+            s = st1.Name;
+            st1.EditLine(ref s);
+            Console.WriteLine("Work - ref - " + s);
+            st2.EditLine2(out s1);
+            Console.WriteLine("Work - out - " + s1);
         }
+
     }
 }

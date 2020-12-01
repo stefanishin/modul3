@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car_struct", "Car_struct\Car_struct.csproj", "{8404875F-5765-46EE-A910-B41D4A2999C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student", "Student\Student.csproj", "{A3001CDA-6E54-4705-A37F-2A2E71B0D457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_out_info", "Student_out_info\Student_out_info.csproj", "{166E3368-5EED-41F0-9B61-ABDF29AC2020}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8404875F-5765-46EE-A910-B41D4A2999C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8404875F-5765-46EE-A910-B41D4A2999C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8404875F-5765-46EE-A910-B41D4A2999C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3001CDA-6E54-4705-A37F-2A2E71B0D457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3001CDA-6E54-4705-A37F-2A2E71B0D457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3001CDA-6E54-4705-A37F-2A2E71B0D457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3001CDA-6E54-4705-A37F-2A2E71B0D457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166E3368-5EED-41F0-9B61-ABDF29AC2020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166E3368-5EED-41F0-9B61-ABDF29AC2020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166E3368-5EED-41F0-9B61-ABDF29AC2020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166E3368-5EED-41F0-9B61-ABDF29AC2020}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
